@@ -1,0 +1,3 @@
+﻿Model,MSE_features,MSE_clean,difference
+GBR,0.013131,0.018851,0.00572
+RF,0.019002,0.021152,0.00215

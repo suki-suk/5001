@@ -1,0 +1,276 @@
+{
+  "n_train": 1460,
+  "n_test": 1459,
+  "n_features": 79,
+  "n_nominal": 21,
+  "duplicate_ids": 0,
+  "duplicate_rows": 0,
+  "cols_with_missing_train": 19,
+  "cols_with_missing_test": 33,
+  "total_missing_cells_train": 7829,
+  "total_missing_cells_test": 7878,
+  "pct_missing_cells_train": 6.62,
+  "unique_values": 8291,
+  "target_mean": 180921.2,
+  "target_median": 163000.0,
+  "target_std": 79442.5,
+  "target_min": 34900,
+  "target_max": 755000,
+  "target_skew": 1.883,
+  "target_log_skew": 0.121,
+  "quality_price_corr": 0.791,
+  "grlivarea_price_corr": 0.709,
+  "yearbuilt_price_corr": 0.523,
+  "totalbsmt_1stflr_corr": 0.82,
+  "garagecars_area_corr": 0.882,
+  "partial_sales": 125,
+  "pool_homes": 7,
+  "outliers_flagged": 2,
+  "outlier_ids": [
+    524,
+    1299
+  ],
+  "rows_modelled": 1458,
+  "n_features_engineered": 252,
+  "n_engineered_added": 37,
+  "engineered_cols": [
+    "TotalSF",
+    "TotalFinSF",
+    "TotalBath",
+    "TotalPorchSF",
+    "AvgRoomSF",
+    "BsmtFinSF",
+    "OverallGrade",
+    "QualScore",
+    "QualxSF",
+    "QualxTotalSF",
+    "CondScore",
+    "HouseAge",
+    "RemodAge",
+    "GarageAge",
+    "IsRemodeled",
+    "IsNew",
+    "AgeAtRemod",
+    "HasBsmt",
+    "HasGarage",
+    "HasFireplace",
+    "Has2ndFlr",
+    "HasPool",
+    "HasMasVnr",
+    "HasDeck",
+    "HasPorch",
+    "BsmtFinRatio",
+    "LivAreaRatio",
+    "BedroomRatio",
+    "KitchenRatio",
+    "GarageAreaPerCar",
+    "MoSoldSin",
+    "MoSoldCos",
+    "log_LotArea",
+    "log_GrLivArea",
+    "log_TotalSF",
+    "log_LotFrontage"
+  ],
+  "clean_log": {
+    "none_filled": 15,
+    "lotfrontage_imputed_train": 259,
+    "lotfrontage_imputed_test": 227,
+    "mode_imputed": {
+      "Electrical": {
+        "train": 1,
+        "test": 0,
+        "value": "SBrkr"
+      },
+      "MSZoning": {
+        "train": 0,
+        "test": 4,
+        "value": "RL"
+      },
+      "KitchenQual": {
+        "train": 0,
+        "test": 1,
+        "value": "TA"
+      },
+      "SaleType": {
+        "train": 0,
+        "test": 1,
+        "value": "WD"
+      },
+      "Functional": {
+        "train": 0,
+        "test": 2,
+        "value": "Typ"
+      },
+      "Exterior1st": {
+        "train": 0,
+        "test": 1,
+        "value": "VinylSd"
+      },
+      "Exterior2nd": {
+        "train": 0,
+        "test": 1,
+        "value": "VinylSd"
+      },
+      "Utilities": {
+        "train": 0,
+        "test": 2,
+        "value": "AllPub"
+      }
+    },
+    "garage_year_clipped": 2,
+    "veneer_type_repaired": 8,
+    "constant_columns": []
+  },
+  "rare_collapse": {
+    "MSSubClass": {
+      "n_levels_raw": 15,
+      "n_levels_kept": 14,
+      "collapsed": [
+        "40"
+      ]
+    },
+    "LotConfig": {
+      "n_levels_raw": 5,
+      "n_levels_kept": 4,
+      "collapsed": [
+        "FR3"
+      ]
+    },
+    "Condition1": {
+      "n_levels_raw": 9,
+      "n_levels_kept": 6,
+      "collapsed": [
+        "PosA",
+        "RRNn",
+        "RRNe"
+      ]
+    },
+    "Condition2": {
+      "n_levels_raw": 8,
+      "n_levels_kept": 1,
+      "collapsed": [
+        "Feedr",
+        "Artery",
+        "RRNn",
+        "PosN",
+        "PosA",
+        "RRAn",
+        "RRAe"
+      ]
+    },
+    "HouseStyle": {
+      "n_levels_raw": 8,
+      "n_levels_kept": 7,
+      "collapsed": [
+        "2.5Fin"
+      ]
+    },
+    "RoofStyle": {
+      "n_levels_raw": 6,
+      "n_levels_kept": 4,
+      "collapsed": [
+        "Mansard",
+        "Shed"
+      ]
+    },
+    "RoofMatl": {
+      "n_levels_raw": 8,
+      "n_levels_kept": 2,
+      "collapsed": [
+        "WdShngl",
+        "WdShake",
+        "Metal",
+        "Membran",
+        "Roll",
+        "ClyTile"
+      ]
+    },
+    "Exterior1st": {
+      "n_levels_raw": 15,
+      "n_levels_kept": 10,
+      "collapsed": [
+        "BrkComm",
+        "Stone",
+        "AsphShn",
+        "ImStucc",
+        "CBlock"
+      ]
+    },
+    "Exterior2nd": {
+      "n_levels_raw": 16,
+      "n_levels_kept": 11,
+      "collapsed": [
+        "Brk Cmn",
+        "Stone",
+        "AsphShn",
+        "Other",
+        "CBlock"
+      ]
+    },
+    "Foundation": {
+      "n_levels_raw": 6,
+      "n_levels_kept": 4,
+      "collapsed": [
+        "Stone",
+        "Wood"
+      ]
+    },
+    "Heating": {
+      "n_levels_raw": 6,
+      "n_levels_kept": 2,
+      "collapsed": [
+        "Grav",
+        "Wall",
+        "OthW",
+        "Floor"
+      ]
+    },
+    "GarageType": {
+      "n_levels_raw": 7,
+      "n_levels_kept": 5,
+      "collapsed": [
+        "CarPort",
+        "2Types"
+      ]
+    },
+    "MiscFeature": {
+      "n_levels_raw": 5,
+      "n_levels_kept": 2,
+      "collapsed": [
+        "Gar2",
+        "Othr",
+        "TenC"
+      ]
+    },
+    "SaleType": {
+      "n_levels_raw": 9,
+      "n_levels_kept": 3,
+      "collapsed": [
+        "ConLD",
+        "ConLI",
+        "ConLw",
+        "CWD",
+        "Oth",
+        "Con"
+      ]
+    },
+    "SaleCondition": {
+      "n_levels_raw": 6,
+      "n_levels_kept": 5,
+      "collapsed": [
+        "AdjLand"
+      ]
+    }
+  },
+  "matrix": {
+    "train": [
+      1458,
+      252
+    ],
+    "test": [
+      1459,
+      251
+    ]
+  },
+  "n_zero_variance_matrix_cols": 0
+}

@@ -1,0 +1,80 @@
+feature,family,scale,n_unique,missing_train_pct,missing_test_pct
+MSZoning,Location and lot,Nominal,5,0.0,0.27
+LotFrontage,Location and lot,Continuous,111,17.74,15.56
+LotArea,Location and lot,Continuous,1073,0.0,0.0
+Street,Location and lot,Ordinal,2,0.0,0.0
+Alley,Location and lot,Ordinal,3,93.77,92.67
+LotShape,Location and lot,Ordinal,4,0.0,0.0
+LandContour,Location and lot,Ordinal,4,0.0,0.0
+Utilities,Location and lot,Ordinal,2,0.0,0.14
+LotConfig,Location and lot,Nominal,5,0.0,0.0
+LandSlope,Location and lot,Ordinal,3,0.0,0.0
+Neighborhood,Location and lot,Nominal,25,0.0,0.0
+Condition1,Location and lot,Nominal,9,0.0,0.0
+Condition2,Location and lot,Nominal,8,0.0,0.0
+MSSubClass,Dwelling type and exterior,Nominal,15,0.0,0.0
+BldgType,Dwelling type and exterior,Nominal,5,0.0,0.0
+HouseStyle,Dwelling type and exterior,Nominal,8,0.0,0.0
+RoofStyle,Dwelling type and exterior,Nominal,6,0.0,0.0
+RoofMatl,Dwelling type and exterior,Nominal,8,0.0,0.0
+Exterior1st,Dwelling type and exterior,Nominal,15,0.0,0.07
+Exterior2nd,Dwelling type and exterior,Nominal,16,0.0,0.07
+MasVnrType,Dwelling type and exterior,Nominal,4,59.73,61.27
+MasVnrArea,Dwelling type and exterior,Continuous,328,0.55,1.03
+Foundation,Dwelling type and exterior,Nominal,6,0.0,0.0
+OverallQual,Quality and condition,Discrete,10,0.0,0.0
+OverallCond,Quality and condition,Discrete,9,0.0,0.0
+ExterQual,Quality and condition,Ordinal,4,0.0,0.0
+ExterCond,Quality and condition,Ordinal,5,0.0,0.0
+BsmtQual,Quality and condition,Ordinal,5,2.53,3.02
+BsmtCond,Quality and condition,Ordinal,5,2.53,3.08
+HeatingQC,Quality and condition,Ordinal,5,0.0,0.0
+KitchenQual,Quality and condition,Ordinal,4,0.0,0.07
+FireplaceQu,Quality and condition,Ordinal,6,47.26,50.03
+GarageQual,Quality and condition,Ordinal,6,5.55,5.35
+GarageCond,Quality and condition,Ordinal,6,5.55,5.35
+PoolQC,Quality and condition,Ordinal,4,99.52,99.79
+Functional,Quality and condition,Ordinal,7,0.0,0.14
+TotalBsmtSF,Size and layout,Continuous,721,0.0,0.07
+1stFlrSF,Size and layout,Continuous,753,0.0,0.0
+2ndFlrSF,Size and layout,Continuous,417,0.0,0.0
+LowQualFinSF,Size and layout,Continuous,24,0.0,0.0
+GrLivArea,Size and layout,Continuous,861,0.0,0.0
+BsmtFinSF1,Size and layout,Continuous,637,0.0,0.07
+BsmtFinSF2,Size and layout,Continuous,144,0.0,0.07
+BsmtUnfSF,Size and layout,Continuous,780,0.0,0.07
+BsmtFullBath,Size and layout,Discrete,4,0.0,0.14
+BsmtHalfBath,Size and layout,Discrete,3,0.0,0.14
+FullBath,Size and layout,Discrete,4,0.0,0.0
+HalfBath,Size and layout,Discrete,3,0.0,0.0
+BedroomAbvGr,Size and layout,Discrete,8,0.0,0.0
+KitchenAbvGr,Size and layout,Discrete,4,0.0,0.0
+TotRmsAbvGrd,Size and layout,Discrete,12,0.0,0.0
+Fireplaces,Size and layout,Discrete,4,0.0,0.0
+BsmtExposure,Basement,Ordinal,5,2.6,3.02
+BsmtFinType1,Basement,Ordinal,7,2.53,2.88
+BsmtFinType2,Basement,Ordinal,7,2.6,2.88
+GarageType,Garage,Nominal,7,5.55,5.21
+GarageYrBlt,Garage,Discrete,98,5.55,5.35
+GarageFinish,Garage,Ordinal,4,5.55,5.35
+GarageCars,Garage,Discrete,5,0.0,0.07
+GarageArea,Garage,Continuous,441,0.0,0.07
+PavedDrive,Outdoor and extras,Ordinal,3,0.0,0.0
+WoodDeckSF,Outdoor and extras,Continuous,274,0.0,0.0
+OpenPorchSF,Outdoor and extras,Continuous,202,0.0,0.0
+EnclosedPorch,Outdoor and extras,Continuous,120,0.0,0.0
+3SsnPorch,Outdoor and extras,Continuous,20,0.0,0.0
+ScreenPorch,Outdoor and extras,Continuous,76,0.0,0.0
+PoolArea,Outdoor and extras,Continuous,8,0.0,0.0
+Fence,Outdoor and extras,Ordinal,5,80.75,80.12
+MiscFeature,Outdoor and extras,Nominal,5,96.3,96.5
+MiscVal,Outdoor and extras,Continuous,21,0.0,0.0
+YearBuilt,Time and sale,Discrete,112,0.0,0.0
+YearRemodAdd,Time and sale,Discrete,61,0.0,0.0
+MoSold,Time and sale,Nominal,12,0.0,0.0
+YrSold,Time and sale,Nominal,5,0.0,0.0
+SaleType,Time and sale,Nominal,9,0.0,0.07
+SaleCondition,Time and sale,Nominal,6,0.0,0.0
+Heating,Systems,Nominal,6,0.0,0.0
+CentralAir,Systems,Ordinal,2,0.0,0.0
+Electrical,Systems,Nominal,6,0.07,0.0

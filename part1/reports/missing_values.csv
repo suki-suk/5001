@@ -1,0 +1,35 @@
+column,missing_train,pct_train,missing_test,interpretation
+PoolQC,1453,99.52,1456,Structural: NA = no feature (basement/garage/pool/...)
+MiscFeature,1406,96.3,1408,Structural: NA = no feature (basement/garage/pool/...)
+Alley,1369,93.77,1352,Structural: NA = no feature (basement/garage/pool/...)
+Fence,1179,80.75,1169,Structural: NA = no feature (basement/garage/pool/...)
+MasVnrType,872,59.73,894,Structural: NA = no feature (basement/garage/pool/...)
+FireplaceQu,690,47.26,730,Structural: NA = no feature (basement/garage/pool/...)
+LotFrontage,259,17.74,227,True missing: not recorded in the assessor file
+GarageYrBlt,81,5.55,78,Structural: no garage
+GarageFinish,81,5.55,78,Structural: NA = no feature (basement/garage/pool/...)
+GarageCond,81,5.55,78,Structural: NA = no feature (basement/garage/pool/...)
+GarageQual,81,5.55,78,Structural: NA = no feature (basement/garage/pool/...)
+GarageType,81,5.55,76,Structural: NA = no feature (basement/garage/pool/...)
+BsmtExposure,38,2.6,44,Structural: NA = no feature (basement/garage/pool/...)
+BsmtFinType2,38,2.6,42,Structural: NA = no feature (basement/garage/pool/...)
+BsmtCond,37,2.53,45,Structural: NA = no feature (basement/garage/pool/...)
+BsmtQual,37,2.53,44,Structural: NA = no feature (basement/garage/pool/...)
+BsmtFinType1,37,2.53,42,Structural: NA = no feature (basement/garage/pool/...)
+MasVnrArea,8,0.55,15,Structural: 0 sq ft of veneer
+Electrical,1,0.07,0,True missing (1 row)
+MSZoning,0,0.0,4,True missing
+BsmtFinSF2,0,0.0,1,Structural: no basement
+BsmtUnfSF,0,0.0,1,Structural: no basement
+Utilities,0,0.0,2,True missing
+Exterior2nd,0,0.0,1,True missing
+Exterior1st,0,0.0,1,True missing
+BsmtFinSF1,0,0.0,1,Structural: no basement
+TotalBsmtSF,0,0.0,1,Structural: no basement
+BsmtHalfBath,0,0.0,2,True missing
+KitchenQual,0,0.0,1,True missing
+Functional,0,0.0,2,True missing
+BsmtFullBath,0,0.0,2,True missing
+GarageArea,0,0.0,1,True missing
+GarageCars,0,0.0,1,True missing
+SaleType,0,0.0,1,True missing
