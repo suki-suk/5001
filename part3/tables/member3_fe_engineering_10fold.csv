@@ -1,5 +1,0 @@
-﻿Model,Data,RMSE_log,MAE_log,R2,R2_std
-GBR,features,0.1148,0.0794,0.915,0.0214
-GBR,clean,0.1253,0.0851,0.8976,0.0313
-RF,features,0.1289,0.0892,0.8935,0.0185
-RF,clean,0.1391,0.0939,0.8735,0.0414
