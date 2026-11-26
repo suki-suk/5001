@@ -1,4 +1,0 @@
-﻿Model,Test_MSE_log,Relative_reduction_vs_OLS,log_scale_RMSE
-OLS (baseline),0.04022,,0.2005
-Ridge,0.01853,-0.539,0.1361
-LASSO,0.01792,-0.555,0.1339
