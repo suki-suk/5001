@@ -1,0 +1,4 @@
+﻿Model,Test_MSE_log,Selected_alpha
+OLS,0.006421,
+Ridge,0.004034,40.37
+Lasso,0.004298,0.001

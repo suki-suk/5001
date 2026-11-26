@@ -1,0 +1,2 @@
+﻿matrix,n_features,n_after_pruning,n_redundant_removed,n_significant_5pct,ols_r2,ols_adj_r2,vif_gt_10,vif_inf,max_finite_vif,residual_kurtosis,jarque_bera_p,durbin_watson,corr_resid_fitted,n_cooks_gt_0.5,max_cooks_d,max_abs_studentized
+matrixA,249,210,39,52,0.9507722986174326,0.9399473590463969,88,2,17748.04655707682,7.6392421539826625,0.0,1.9898294264134813,-1.4278636718170576e-13,0,0.0009620250262194069,7.170114802593503

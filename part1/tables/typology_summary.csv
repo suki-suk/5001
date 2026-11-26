@@ -1,0 +1,10 @@
+family,Continuous,Discrete,Nominal,Ordinal
+Basement,0,0,0,3
+Dwelling type and exterior,1,0,9,0
+Garage,1,2,1,1
+Location and lot,2,0,5,6
+Outdoor and extras,7,0,1,2
+Quality and condition,0,2,0,11
+Size and layout,8,8,0,0
+Systems,0,0,2,1
+Time and sale,0,2,4,0

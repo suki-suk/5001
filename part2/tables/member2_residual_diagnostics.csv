@@ -1,0 +1,7 @@
+﻿Diagnostic,Value,Judgement
+Residual mean,-5e-15,no systematic bias
+"Cor(resid, fitted)",-0.1,linearity reasonable
+Skewness,-0.966,clear asymmetry
+Kurtosis,13.065,strong heavy tails
+Jarque_Bera,5112.25,normality decisively rejected
+Durbin_Watson,2.033,no first-order autocorrelation
