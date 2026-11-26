@@ -1,0 +1,3 @@
+matrix,n_features,n_exact_redundant,n_severe_10_plus,n_moderate_5_10,n_mild_le_5,n_vif_gt_10_total,max_finite_vif,median_finite_vif
+Raw features (Part 2 encoding),234,0,54,41,139,54,227.18864991821457,3.7187549154732897
+Part 1 engineered matrix,51,0,20,5,26,20,1544.210393676739,4.993999517182115
